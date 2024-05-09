@@ -1,0 +1,17 @@
+[[redirects]]
+  from = "/"
+  to = "https://react-deploy-tests.netlify.app"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/privacy-policy"
+  to = "https://react-deploy-tests.netlify.app/privacy-policy"
+  status = 200
+  force = true
+  
+[[redirects]]
+  from = "/*"
+  to = "https://react-deploy-tests.netlify.app"
+  status = 200
+  force = true
